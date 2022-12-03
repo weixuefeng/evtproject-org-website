@@ -41,7 +41,7 @@ In this toolchain, you can use some simple shell command line to deploy contract
 
 ### 3.1 Summary
 
-- Upload Media Source(mp4,...) to EVT Commander.
+- Upload Media Source to EVT Commander.
 
 - EVT Commander job:
   - create new wallet; 
