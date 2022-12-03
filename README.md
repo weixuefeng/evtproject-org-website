@@ -61,8 +61,9 @@ In this toolchain, you can use some simple shell command line to deploy contract
 - Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
 
 ### 3.2 Android
-
+- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/evt-player-android)
 ### 3.3 iOS
+- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/evt-player-ios)
 
 ### 3.4 Server
 
