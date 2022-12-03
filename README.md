@@ -3,7 +3,7 @@
 
 ## 1. EVT Architecture
 
-![EVT Architecture](./res/EVT.png)
+![EVT Architecture](./res/evt.png)
 
 ## 2 EVT Components & Tools
 
