@@ -7,7 +7,7 @@
 
 ## 2 EVT Components & Tools
 
-### 2.1 Movie Commander
+### 2.1 EVT Commander
 
 - Create wallet
 - Slice media source
@@ -41,9 +41,9 @@ In this toolchain, you can use some simple shell command line to deploy contract
 
 ### 3.1 Summary
 
-- Upload Media Source(mp4,...) to Movie Commander.
+- Upload Media Source(mp4,...) to EVT Commander.
 
-- Movie Commander job:
+- EVT Commander job:
   - create new wallet; 
   - recharge `NEW` to wallet address;
   - slice media source;
