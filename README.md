@@ -21,7 +21,7 @@ Library for EVT development.
 - Example contracts for using EVT
 - Factory for EVT industry application
 
-### 2.5 [evt-toolchain]((https://github.com/newtonproject/evt-toolchain))
+### 2.5 [evt-toolchain](https://github.com/newtonproject/evt-toolchain)
 
 In this toolchain, you can use some simple shell command line to deploy contract, create EVT, call EVT Encryption functions, call EVT Variable functions. etc.
 
