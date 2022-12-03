@@ -1,4 +1,89 @@
+[TOC]
+
 # EVT Guide
+
+
+
+## Introduction
+
+
+
+### What's EVT
+
+
+
+### Why do we need EVT
+
+
+
+### EVT vs NFT
+
+
+
+### Use cases for EVT
+
+
+
+## Architecture
+
+
+
+## Technology
+
+
+
+### Token standards
+
+
+
+### Decentralized key management
+
+
+
+### Decentralized Storage
+
+
+
+### P2P Distribution
+
+
+
+### Content protection
+
+
+
+
+
+## Development
+
+
+
+### evt-lib
+
+
+
+### evt-toolchain
+
+
+
+### Newkeeper
+
+
+
+### EVT Commander
+
+
+
+## Tutorials
+
+
+
+### Create a movie EVT
+
+ 
+
+
+
 
 
 ## 1. EVT Architecture
