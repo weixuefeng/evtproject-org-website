@@ -8,11 +8,23 @@
 ## 2 EVT Components & Tools
 
 ### 2.1 Movie Commander
-- 切片，加密视频资源...
+
+- Create wallet
+- Slice media source
+- Encrypt media source
+- Create EVT Contract
+- Register key & evt contract to NewKeeper
 
 ### 2.2 NewKeeper
 
+- Save encrypt key
+- Check evt permission by address
+- Dispatch evt `encrypt key`
+
 ### 2.3 NewPlayer
+
+- Decode media sorce
+- Play media source.
 
 ### 2.4 [evt-libs](https://github.com/newtonproject/evt-lib)
 
@@ -26,6 +38,8 @@ Library for EVT development.
 In this toolchain, you can use some simple shell command line to deploy contract, create EVT, call EVT Encryption functions, call EVT Variable functions. etc.
 
 ## 3 How to integration
+
+### 3.1 Summary
 
 - Upload Media Source(mp4,...) to Movie Commander.
 
@@ -46,11 +60,13 @@ In this toolchain, you can use some simple shell command line to deploy contract
 
 - Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
 
-### 3.1 Android
+### 3.2 Android
 
-### 3.2 iOS
+### 3.3 iOS
 
-### 3.3 Server
+### 3.4 Server
+
+### 3.5 F&Q
 
 
 ## 4. Build Your EVT
