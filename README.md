@@ -37,10 +37,14 @@ In this toolchain, you can use some simple shell command line to deploy contract
   - use `secret key` encrypt `sliced media source`;
   - upload `encrypted media source ` to CDN/IPFS/...;
   - deploy media source evt contract;
-  - register `secret key` and `evt contract` to `NewKeeper`
-  - get `evt contract address`
+  - register `secret key` and `evt contract` to `NewKeeper`;
+  - get `evt contract address`.
 
+- User call `mint` to mint EVT;
 
+- User get `token uri` from `evt contract address`, then fetch `secret key` from `NewKeeper`;
+
+- Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
 
 ### 3.1 Android
 
