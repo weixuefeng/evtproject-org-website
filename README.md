@@ -30,14 +30,16 @@ In this toolchain, you can use some simple shell command line to deploy contract
 - Upload Media Source(mp4,...) to Movie Commander.
 
 - Movie Commander job:
+  - create new wallet; 
+  - recharge `NEW` to wallet address;
   - slice media source;
   - generate random secret;
   - use `secret key` encrypt `sliced media source`;
   - upload `encrypted media source ` to CDN/IPFS/...;
   - deploy media source evt contract;
   - register `secret key` and `evt contract` to `NewKeeper`
+  - get `evt contract address`
 
-1. 
 
 
 ### 3.1 Android
