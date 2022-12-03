@@ -3,7 +3,7 @@
 
 ## 1. EVT Architecture
 
-![EVT Architecture](./res/evt.png)
+![EVT Architecture](./res/EVT.png)
 
 ## 2 EVT Components & Tools
 
@@ -13,27 +13,27 @@
 - Slice media source
 - Encrypt media source
 - Create EVT Contract
-- Register key & evt contract to NewKeeper
+- Register key & EVT contract to NewKeeper
 
 ### 2.2 NewKeeper
 
 - Save encrypt key
-- Check evt permission by address
-- Dispatch evt `encrypt key`
+- Check EVT permission by address
+- Dispatch EVT `encrypt key`
 
 ### 2.3 NewPlayer
 
 - Decode media sorce
 - Play media source.
 
-### 2.4 [evt-libs](https://github.com/newtonproject/evt-lib)
+### 2.4 [EVT-libs](https://github.com/newtonproject/EVT-lib)
 
 Library for EVT development.
 - Standard implementation of EVT
 - Example contracts for using EVT
 - Factory for EVT industry application
 
-### 2.5 [evt-toolchain](https://github.com/newtonproject/evt-toolchain)
+### 2.5 [EVT-toolchain](https://github.com/newtonproject/EVT-toolchain)
 
 In this toolchain, you can use some simple shell command line to deploy contract, create EVT, call EVT Encryption functions, call EVT Variable functions. etc.
 
@@ -50,20 +50,20 @@ In this toolchain, you can use some simple shell command line to deploy contract
   - generate random secret;
   - use `secret key` encrypt `sliced media source`;
   - upload `encrypted media source ` to CDN/IPFS/...;
-  - deploy media source evt contract;
-  - register `secret key` and `evt contract` to `NewKeeper`;
-  - get `evt contract address`.
+  - deploy media source EVT contract;
+  - register `secret key` and `EVT contract` to `NewKeeper`;
+  - get `EVT contract address`.
 
 - User call `mint` to mint EVT;
 
-- User get `token uri` from `evt contract address`, then fetch `secret key` from `NewKeeper`;
+- User get `token uri` from `EVT contract address`, then fetch `secret key` from `NewKeeper`;
 
 - Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
 
 ### 3.2 Android
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/evt-player-android)
+- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-android)
 ### 3.3 iOS
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/evt-player-ios)
+- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-ios)
 
 ### 3.4 Server
 
