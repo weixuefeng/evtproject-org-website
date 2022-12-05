@@ -158,5 +158,4 @@ In this toolchain, you can use some simple shell command line to deploy contract
 
 ### 3.5 F&Q
 
-
 ## 4. Build Your EVT
