@@ -68,7 +68,7 @@ Summary
 
 ### 4.2 How to integration
 
-### 3.1 Summary
+### 4.2.1 Summary
 
 - Upload Media Source to EVT Commander.
 
@@ -89,13 +89,14 @@ Summary
 
 - Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
 
-### 3.2 Android
+### 4.2.2 NewPlayer SDK
 
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-android)
+- [Android SDK & demo](https://gitlab.weinvent.org/weinvent/incubator/evt-integration/evt-player-android)
+- [iOS SDK & demo](https://gitlab.weinvent.org/weinvent/incubator/evt-integration/evt-player-ios)(https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-android)
 
-### 3.3 iOS
+### 4.2.3 NewKeeper authorization
 
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-ios)
+- [NewKeeper API & demo](https://github.com/newtonproject/evt-integration-newkeeper)
 
 ## 5. Development
 
@@ -150,41 +151,3 @@ In this toolchain, you can use some simple shell command line to deploy contract
 
 
 #### 7.1.2 P2P Distribution
-
-
-
-## 
-
-
-
-## 3 How to integration
-
-### 3.1 Summary
-
-- Upload Media Source to EVT Commander.
-
-- EVT Commander job:
-  - create new wallet; 
-  - recharge `NEW` to wallet address;
-  - slice media source;
-  - generate random secret;
-  - use `secret key` encrypt `sliced media source`;
-  - upload `encrypted media source ` to CDN/IPFS/...;
-  - deploy media source EVT contract;
-  - register `secret key` and `EVT contract` to `NewKeeper`;
-  - get `EVT contract address`.
-
-- User call `mint` to mint EVT;
-
-- User get `token uri` from `EVT contract address`, then fetch `secret key` from `NewKeeper`;
-
-- Provide `player link` & `secret key` to `NewPlayer` and you can play the `media source`.
-
-### 3.2 Android
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-android)
-### 3.3 iOS
-- [demo & doc](https://gitlab.weinvent.org/wave/business/wave-websites/EVT-player-ios)
-
-### 3.5 FAQ
-
-## 4. Build Your EVT
